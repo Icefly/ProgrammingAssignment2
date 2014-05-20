@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x=matrix()){
 cacheSolve <- function(x, mat=matrix()) {
   sol <- x$getreverse()
   if (!is.null(sol)) {                      
-    message ("getting the chached data")
+    message ("will get the chached calculation result")
     return(sol)
   }
   data = x$get()
